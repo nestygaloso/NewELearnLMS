@@ -75,22 +75,24 @@
                                FontFamily="Montserrat"
                                Width="392"/>
                 </StackPanel>
-                <Button x:Name="Course_btn1" Content="Button" 
+                <Button x:Name="Course_btn1" Content="" 
                         HorizontalAlignment="Left" 
                         Margin="210,90,0,0" 
                         VerticalAlignment="Top" 
                         Height="240" 
-                        Width="240">
+                        Width="240" 
+                        Click="Course_btn1_Click">
                     <Button.Background>
                         <ImageBrush ImageSource="/csharp2.png"/>
                     </Button.Background>
                 </Button>
-                <Button x:Name="Course_btn2" Content="Button" 
+                <Button x:Name="Course_btn2" Content="" 
                     HorizontalAlignment="Left" 
                     Margin="488,90,0,0" 
                     VerticalAlignment="Top" 
                     Height="240" 
-                    Width="240">
+                    Width="240" 
+                    Click="Course_btn2_Click">
                     <Button.Background>
                         <ImageBrush ImageSource="/database.png"/>
                     </Button.Background>

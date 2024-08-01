@@ -71,6 +71,7 @@
       <DependentUpon>App.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="AuthenticationService.cs" />
     <Compile Include="Course.xaml.cs">
       <DependentUpon>Course.xaml</DependentUpon>
     </Compile>

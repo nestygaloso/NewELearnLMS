@@ -1,4 +1,5 @@
-﻿using System.Windows;
+﻿using NewELearnLMS;
+using System.Windows;
 
 namespace NewElearnLMS
 {
@@ -21,43 +22,49 @@ namespace NewElearnLMS
 
         private void Tab_Home_Click(object sender, RoutedEventArgs e)
         {
-            // Code to handle Home tab click
+            //code to handle Home tab click
             MessageBox.Show("Home tab clicked");
         }
 
         private void Tab_Course_Click(object sender, RoutedEventArgs e)
         {
-            // Code to handle Course tab click
+            //section to handle Course tab click
+            Course Course1 = new Course();
+            Course1.Show();
+            this.Close();
             MessageBox.Show("Course tab clicked");
         }
 
         private void Tab_Messages_Click(object sender, RoutedEventArgs e)
         {
-            // Code to handle Messages tab click
+            //section to handle Messages tab click
+            Messages Messages1 = new Messages();
+            Messages1.Show();
+            this.Close();
             MessageBox.Show("Messages tab clicked");
         }
 
         private void Tab_Settings_Click(object sender, RoutedEventArgs e)
         {
-            // Code to handle Settings tab click
+            //section to handle Settings tab click
             MessageBox.Show("Settings tab clicked");
         }
 
         private void StartCourseBtn_Click(object sender, RoutedEventArgs e)
         {
-            // Code to start course
+            //part to start course
             MessageBox.Show("Start Course button clicked");
         }
 
         private void CustomerCareBtn_Click(object sender, RoutedEventArgs e)
         {
-            // Code to handle Customer Care button click
+            //code to handle Customer Care button click
             MessageBox.Show("Customer Care button clicked");
         }
 
         private void CourseSelectionComboBox_SelectionChanged_1(object sender, System.Windows.Controls.SelectionChangedEventArgs e)
         {
-            // Handle course selection change
+            //to handle course selection change
             if (CourseSelectionComboBox.SelectedItem is System.Windows.Controls.ComboBoxItem selectedItem)
             {
                 string selectedCourse = selectedItem.Tag.ToString();
@@ -67,7 +74,7 @@ namespace NewElearnLMS
 
         private void CustomerCareTxt_TextChanged(object sender, System.Windows.Controls.TextChangedEventArgs e)
         {
-            // Code to handle text change in CustomerCareTxt
+          
         }
     }
 }

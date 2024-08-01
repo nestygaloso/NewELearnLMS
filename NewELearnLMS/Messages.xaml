@@ -139,7 +139,7 @@
             </Button>
             <Button x:Name="Tab_Messages"
                 BorderThickness="0"
-                Content="Messages"
+                Content="Cours"
                 Foreground="White"
                 FontSize="12"
                 FontFamily="Montserrat"
