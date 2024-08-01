@@ -15,3 +15,7 @@ C:\Users\Ned\Documents\GitHub\NewELearnLMS\NewELearnLMS\NewELearnLMS\obj\Debug\N
 C:\Users\Ned\Documents\GitHub\NewELearnLMS\NewELearnLMS\NewELearnLMS\obj\Debug\NewELearnLMS.pdb
 C:\Users\Ned\Documents\GitHub\NewELearnLMS\NewELearnLMS\NewELearnLMS\obj\Debug\LoginView.g.cs
 C:\Users\Ned\Documents\GitHub\NewELearnLMS\NewELearnLMS\NewELearnLMS\obj\Debug\LoginView.baml
+C:\Users\Ned\Documents\GitHub\NewELearnLMS\NewELearnLMS\NewELearnLMS\obj\Debug\Course.g.cs
+C:\Users\Ned\Documents\GitHub\NewELearnLMS\NewELearnLMS\NewELearnLMS\obj\Debug\Messages.g.cs
+C:\Users\Ned\Documents\GitHub\NewELearnLMS\NewELearnLMS\NewELearnLMS\obj\Debug\Course.baml
+C:\Users\Ned\Documents\GitHub\NewELearnLMS\NewELearnLMS\NewELearnLMS\obj\Debug\Messages.baml
