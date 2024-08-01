@@ -1,0 +1,17 @@
+C:\Users\Ned\Documents\GitHub\NewELearnLMS\NewELearnLMS\NewELearnLMS\bin\Debug\NewELearnLMS.exe.config
+C:\Users\Ned\Documents\GitHub\NewELearnLMS\NewELearnLMS\NewELearnLMS\bin\Debug\NewELearnLMS.exe
+C:\Users\Ned\Documents\GitHub\NewELearnLMS\NewELearnLMS\NewELearnLMS\bin\Debug\NewELearnLMS.pdb
+C:\Users\Ned\Documents\GitHub\NewELearnLMS\NewELearnLMS\NewELearnLMS\obj\Debug\NewELearnLMS.csproj.AssemblyReference.cache
+C:\Users\Ned\Documents\GitHub\NewELearnLMS\NewELearnLMS\NewELearnLMS\obj\Debug\MainWindow.g.cs
+C:\Users\Ned\Documents\GitHub\NewELearnLMS\NewELearnLMS\NewELearnLMS\obj\Debug\App.g.cs
+C:\Users\Ned\Documents\GitHub\NewELearnLMS\NewELearnLMS\NewELearnLMS\obj\Debug\NewELearnLMS_MarkupCompile.cache
+C:\Users\Ned\Documents\GitHub\NewELearnLMS\NewELearnLMS\NewELearnLMS\obj\Debug\NewELearnLMS_MarkupCompile.lref
+C:\Users\Ned\Documents\GitHub\NewELearnLMS\NewELearnLMS\NewELearnLMS\obj\Debug\MainWindow.baml
+C:\Users\Ned\Documents\GitHub\NewELearnLMS\NewELearnLMS\NewELearnLMS\obj\Debug\NewELearnLMS.g.resources
+C:\Users\Ned\Documents\GitHub\NewELearnLMS\NewELearnLMS\NewELearnLMS\obj\Debug\NewELearnLMS.Properties.Resources.resources
+C:\Users\Ned\Documents\GitHub\NewELearnLMS\NewELearnLMS\NewELearnLMS\obj\Debug\NewELearnLMS.csproj.GenerateResource.cache
+C:\Users\Ned\Documents\GitHub\NewELearnLMS\NewELearnLMS\NewELearnLMS\obj\Debug\NewELearnLMS.csproj.CoreCompileInputs.cache
+C:\Users\Ned\Documents\GitHub\NewELearnLMS\NewELearnLMS\NewELearnLMS\obj\Debug\NewELearnLMS.exe
+C:\Users\Ned\Documents\GitHub\NewELearnLMS\NewELearnLMS\NewELearnLMS\obj\Debug\NewELearnLMS.pdb
+C:\Users\Ned\Documents\GitHub\NewELearnLMS\NewELearnLMS\NewELearnLMS\obj\Debug\LoginView.g.cs
+C:\Users\Ned\Documents\GitHub\NewELearnLMS\NewELearnLMS\NewELearnLMS\obj\Debug\LoginView.baml

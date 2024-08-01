@@ -1,0 +1,469 @@
+﻿<Window x:Class="NewElearnLMS.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:NewElearnLMS"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800"
+        Background="Transparent"
+        AllowsTransparency="True"
+        WindowStyle="None">
+
+    <Border CornerRadius="12">
+        <Border.Background>
+            <ImageBrush Stretch="None"/>
+        </Border.Background>
+
+        <Border CornerRadius="10"
+            BorderThickness="2"
+            Opacity="0.95" Margin="4,0,-4,0">
+
+            <Border.BorderBrush>
+                <LinearGradientBrush StartPoint="0,0" EndPoint="1,1">
+                    <GradientStop Color="#102C57" Offset="0"/>
+                    <GradientStop Color="#1679AB" Offset="0.75"/>
+                    <GradientStop Color="#FFB1B1" Offset="1"/>
+                    <GradientStop Color="#FFCBCB" Offset="1"/>
+                </LinearGradientBrush>
+            </Border.BorderBrush>
+
+            <Border.Background>
+                <LinearGradientBrush StartPoint="0,1" EndPoint="1,0">
+                    <GradientStop Color="#102C57" Offset="0"/>
+                    <GradientStop Color="#1679AB" Offset="1"/>
+                </LinearGradientBrush>
+            </Border.Background>
+
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="80*"/>
+                    <ColumnDefinition Width="636*"/>
+                    <ColumnDefinition Width="79*"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="30"/>
+                    <RowDefinition/>
+                </Grid.RowDefinitions>
+
+                <Grid x:Name="Grid" Grid.Row="0" Grid.ColumnSpan="4" Margin="0,0,0,362" Grid.RowSpan="2">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition/>
+                        <ColumnDefinition Width="25"/>
+                        <ColumnDefinition Width="25"/>
+                        <ColumnDefinition Width="5"/>
+                    </Grid.ColumnDefinitions>
+
+                    <Button x:Name="btnMinimize"
+                            BorderThickness="0"
+                            Content="-"
+                            Foreground="White"
+                            FontSize="16"
+                            FontFamily="Montserrat"
+                            Cursor="Hand"
+                            Grid.Column="1"
+                            Click="btnMinimize_Click" Background="#FF8D3565" RenderTransformOrigin="0.528,0.39" HorizontalAlignment="Center" Width="25" Height="31" VerticalAlignment="Top" Margin="0,-1,0,0">
+                        <Button.RenderTransform>
+                            <TransformGroup>
+                                <ScaleTransform/>
+                                <SkewTransform AngleX="-0.376"/>
+                                <RotateTransform/>
+                                <TranslateTransform X="-0.15"/>
+                            </TransformGroup>
+                        </Button.RenderTransform>
+
+                        <Button.Style>
+                            <Style TargetType="Button">
+                                <Setter Property="Background" Value="#28AEED"/>
+                                <Style.Triggers>
+                                    <Trigger Property="IsMouseOver" Value="True">
+                                        <Setter Property="Background" Value="#278BEF"/>
+                                    </Trigger>
+                                </Style.Triggers>
+                            </Style>
+                        </Button.Style>
+
+                        <Button.Template>
+                            <ControlTemplate TargetType="Button">
+                                <Border Width="18" Height="18"
+                                        CornerRadius="9"
+                                        Background="{TemplateBinding Background}">
+                                    <ContentPresenter VerticalAlignment="Center"
+                                                      HorizontalAlignment="Center"/>
+                                </Border>
+                            </ControlTemplate>
+                        </Button.Template>
+
+                    </Button>
+
+                    <Button x:Name="btnClose"
+                            BorderThickness="0"
+                            Content="X"
+                            Foreground="White"
+                            FontSize="12"
+                            FontFamily="Montserrat"
+                            Cursor="Hand"
+                            Grid.Column="2"
+                            Click="btnClose_Click" Height="30" VerticalAlignment="Top" Background="#FF209BE0">
+
+                        <Button.Style>
+                            <Style TargetType="Button">
+                                <Setter Property="Background" Value="#DA34AE"/>
+                                <Style.Triggers>
+                                    <Trigger Property="IsMouseOver" Value="True">
+                                        <Setter Property="Background" Value="#C62DAE"/>
+                                    </Trigger>
+                                </Style.Triggers>
+                            </Style>
+                        </Button.Style>
+
+                        <Button.Template>
+                            <ControlTemplate TargetType="Button">
+                                <Border Width="18" Height="18"
+                                        CornerRadius="9"
+                                        Background="{TemplateBinding Background}">
+                                    <ContentPresenter VerticalAlignment="Center"
+                                                      HorizontalAlignment="Center"/>
+                                </Border>
+                            </ControlTemplate>
+                        </Button.Template>
+                    </Button>
+
+                    <Canvas>
+                        <Rectangle x:Name="ShapeDropDownCopy"
+                        Width="380"
+                        Height="30"
+                        Canvas.Left="312"
+                        Canvas.Top="30" 
+                        RadiusX="10"
+                        RadiusY="10"
+                        HorizontalAlignment="Left" 
+                        VerticalAlignment="Center" 
+                        Fill="#1679AB" />
+
+                    </Canvas>
+
+                    <!-- Course Selection Dropdown -->
+                    <ComboBox x:Name="CourseSelectionComboBox" 
+                              HorizontalAlignment="Left" 
+                              VerticalAlignment="Top"
+                              Width="350"
+                              Margin="327,34,0,0" SelectionChanged="CourseSelectionComboBox_SelectionChanged_1">
+                        <ComboBoxItem Content="Introduction to C#" Tag="Introduction to C#"/>
+                        <ComboBoxItem Content="Advanced SQL" Tag="Advanced SQL"/>
+                    </ComboBox>
+                </Grid>
+
+                <StackPanel x:Name="StackPanel_box"
+                            Orientation="Vertical"
+                            Margin="0,10,500,0" Grid.ColumnSpan="2" Grid.RowSpan="2">
+
+                    <StackPanel.Background>
+                        <LinearGradientBrush StartPoint="0,0" EndPoint="1,1">
+                            <GradientStop Color="#1679AB" Offset="0"/>
+                            <GradientStop Color="#FFB1B1" Offset="0.75"/>
+                            <GradientStop Color="#FFCBCB" Offset="1"/>
+                        </LinearGradientBrush>
+                    </StackPanel.Background>
+
+
+                    <TextBlock x:Name="AppName" Text="NG Learning"
+                               Foreground="White"
+                               FontSize="25"
+                               FontWeight="Medium"
+                               FontFamily="Montserrat" Height="36"
+                               Margin="0,5,0,0"
+                               TextAlignment="Center"
+                               />
+
+                    <TextBlock x:Name="AppSlogan" 
+                               Text="New Grasp of Learning"
+                               Foreground="LightGray"
+                               FontSize="12"
+                               FontWeight="Medium"
+                               FontFamily="Montserrat"
+                               TextWrapping="Wrap"
+                               TextAlignment="Center"
+                               Margin="0,1,0,0"/>
+
+                    <Button x:Name="Tab_Home"
+                            BorderThickness="0"
+                            Content="Accueil"
+                            Foreground="White"
+                            FontSize="12"
+                            FontFamily="Montserrat"
+                            Cursor="Hand"
+                            Margin="0,10,0,10"
+                            Click="Tab_Home_Click">
+
+                        <Button.Style>
+                            <Style TargetType="{x:Type Button}">
+                                <Setter Property="Background" Value="#102C57"/>
+                                <Style.Triggers>
+                                    <Trigger Property="IsMouseOver" Value="True">
+                                        <Setter Property="Background" Value="#FFCBCB"/>
+                                    </Trigger>
+                                </Style.Triggers>
+                            </Style>
+                        </Button.Style>
+
+                        <Button.Template>
+                            <ControlTemplate TargetType="{x:Type Button}">
+                                <Border Width="150" Height="40"
+                                        CornerRadius="20"
+                                        Background="{TemplateBinding Background}">
+                                    <ContentPresenter VerticalAlignment="Center"
+                                                      HorizontalAlignment="Center"/>
+                                </Border>
+                            </ControlTemplate>
+                        </Button.Template>
+                    </Button>
+
+                    <Button x:Name="Tab_Course"
+                        BorderThickness="0"
+                        Content="Cours"
+                        Foreground="White"
+                        FontSize="12"
+                        FontFamily="Montserrat"
+                        Cursor="Hand"
+                        Margin="0,1,0,0"
+                        Click="Tab_Course_Click">
+
+                        <Button.Style>
+                            <Style TargetType="{x:Type Button}">
+                                <Setter Property="Background" Value="#102C57"/>
+                                <Style.Triggers>
+                                    <Trigger Property="IsMouseOver" Value="True">
+                                        <Setter Property="Background" Value="#FFCBCB"/>
+                                    </Trigger>
+                                </Style.Triggers>
+                            </Style>
+                        </Button.Style>
+
+                        <Button.Template>
+                            <ControlTemplate TargetType="{x:Type Button}">
+                                <Border Width="150" Height="40"
+                                    CornerRadius="20"
+                                    Background="{TemplateBinding Background}">
+                                    <ContentPresenter VerticalAlignment="Center"
+                                        HorizontalAlignment="Center"/>
+                                </Border>
+                            </ControlTemplate>
+                        </Button.Template>
+                    </Button>
+                    <Button x:Name="Tab_Messages"
+                        BorderThickness="0"
+                        Content="Messages"
+                        Foreground="White"
+                        FontSize="12"
+                        FontFamily="Montserrat"
+                        Cursor="Hand"
+                        Margin="0,12,0,0"
+                        Click="Tab_Messages_Click">
+
+                        <Button.Style>
+                            <Style TargetType="{x:Type Button}">
+                                <Setter Property="Background" Value="#102C57"/>
+                                <Style.Triggers>
+                                    <Trigger Property="IsMouseOver" Value="True">
+                                        <Setter Property="Background" Value="#FFCBCB"/>
+                                    </Trigger>
+                                </Style.Triggers>
+                            </Style>
+                        </Button.Style>
+
+                        <Button.Template>
+                            <ControlTemplate TargetType="{x:Type Button}">
+                                <Border Width="150" Height="40"
+                                    CornerRadius="20"
+                                    Background="{TemplateBinding Background}">
+                                    <ContentPresenter VerticalAlignment="Center"
+                                        HorizontalAlignment="Center"/>
+                                </Border>
+                            </ControlTemplate>
+                        </Button.Template>
+                    </Button>
+
+                </StackPanel>
+
+                <!--Shapes for the buttons-->
+
+                <Canvas>
+
+                    <Rectangle x:Name="BackgroundBoxMain"
+                        Width="521"
+                        Height="275"
+                        Canvas.Left="244"
+                        Canvas.Top="131" 
+                        RadiusX="20"
+                        RadiusY="20"
+                        HorizontalAlignment="Left" 
+                        VerticalAlignment="Center" 
+                        Fill="#FFFF" />
+
+                    <Rectangle x:Name="CourseBackground2"
+                        Width="213"
+                        Height="213"
+                        Canvas.Left="268"
+                        Canvas.Top="176" 
+                        RadiusX="20"
+                        RadiusY="20"
+                        HorizontalAlignment="Center" 
+                        VerticalAlignment="Top" 
+                        Fill="#102C57" />
+
+                    <Rectangle x:Name="CourseBackground1"
+                        Width="213"
+                        Height="213"
+                        Canvas.Left="525"
+                        Canvas.Top="176" 
+                        RadiusX="20"
+                        RadiusY="20"
+                        HorizontalAlignment="Center" 
+                        VerticalAlignment="Top" 
+                        Fill="#102C57" />
+
+                </Canvas>
+
+
+                <Button x:Name="StartCourseBtn" 
+                        Grid.Column="1" 
+                        Content="Suivre le cours" 
+                        HorizontalAlignment="Left" 
+                        Margin="371,37,0,0" 
+                        Grid.Row="1" 
+                        FontSize="12"
+                        FontFamily="Montserrat"
+                        VerticalAlignment="Top" 
+                        Height="30"
+                        Width="100"
+                        Cursor="Hand"
+                        Foreground="White"
+                        Click="StartCourseBtn_Click"
+                        Background="#FFB1B1" BorderBrush="{x:Null}"/>
+
+                <Button x:Name="CourseAvailable1" Grid.Column="1" 
+                        Content="" 
+                        HorizontalAlignment="Left" 
+                        Margin="194,153,0,0" 
+                        Grid.Row="1" 
+                        VerticalAlignment="Top" 
+                        Height="200" 
+                        Width="200" 
+                        BorderBrush="{x:Null}">
+                    <Button.Background>
+                        <ImageBrush ImageSource="/csharp2.png" 
+                         Stretch="UniformToFill"/>
+                    </Button.Background>
+                </Button>
+                <Button x:Name="CourseAvailable2" 
+                        Grid.Column="1" 
+                        Content="" 
+                        HorizontalAlignment="Left" 
+                        Margin="453,153,0,0" 
+                        Grid.Row="1" 
+                        VerticalAlignment="Top" 
+                        Height="200" 
+                        Width="200" 
+                        BorderBrush="{x:Null}" 
+                        Grid.ColumnSpan="2">
+                    <Button.Background>
+                        <ImageBrush ImageSource="/database.png"/>
+                    </Button.Background>
+                </Button>
+                <TextBox x:Name="CourseText" 
+                         Grid.Column="1" 
+                         HorizontalAlignment="Left" 
+                         Margin="187,121,0,0" 
+                         Grid.Row="1" 
+                         TextWrapping="Wrap" 
+                         Text="Cours disponibles pour vous" 
+                         VerticalAlignment="Top" 
+                         Width="385" 
+                         Background="{x:Null}" 
+                         Foreground="#102C57" 
+                         FontSize="15"
+                         FontFamily="Montserrat"
+                         BorderBrush="{x:Null}"/>
+                <Canvas>
+                    <!--Square Shape-->
+
+                    <Rectangle x:Name="ShapeCustomerCare"
+                        Width="94"
+                        Height="119"
+                        Canvas.Left="64"
+                        Canvas.Top="296" 
+                        RadiusX="15"
+                        RadiusY="15"
+                        HorizontalAlignment="Left" 
+                        VerticalAlignment="Top" 
+                        Fill="#FFFFCBCB"/>
+
+                </Canvas>
+                <Button x:Name="CustomerCareBtn" 
+                        Content="" 
+                        HorizontalAlignment="Left" 
+                        Margin="55,282,0,0" 
+                        Grid.Row="1" 
+                        Height="112" 
+                        Width="112" 
+                        VerticalAlignment="Top" BorderBrush="{x:Null}" 
+                        Grid.ColumnSpan="2" 
+                        Click="CustomerCareBtn_Click">
+                    <Button.Background>
+                        <ImageBrush ImageSource="/customercare2.png"/>
+                    </Button.Background>
+                </Button>
+
+                <TextBox x:Name="CustomerCareTxt" 
+                        TextWrapping="Wrap" 
+                        Text="Besoin d'aide?" 
+                        Background="{x:Null}" 
+                        BorderBrush="{x:Null}" 
+                        Foreground="White" 
+                        FontSize="10"
+                        HorizontalAlignment="Left"       
+                        FontFamily="Montserrat"
+                        TextChanged="CustomerCareTxt_TextChanged" 
+                        RenderTransformOrigin="0.5,0.5" 
+                        Margin="75,273,0,131" 
+                        Grid.Row="1" 
+                        Grid.ColumnSpan="2">
+                    <TextBox.RenderTransform>
+                        <TransformGroup>
+                            <ScaleTransform/>
+                            <SkewTransform AngleX="-0.955"/>
+                            <RotateTransform/>
+                            <TranslateTransform X="0.25"/>
+                        </TransformGroup>
+                    </TextBox.RenderTransform>
+                </TextBox>
+                <TextBox x:Name="ContactUsTxt" 
+                       TextWrapping="Wrap" 
+                       Text="Contactez-nous 24/7." 
+                       Background="{x:Null}" 
+                       BorderBrush="{x:Null}" 
+                       Foreground="#FFF19696" 
+                       FontSize="6"
+                       HorizontalAlignment="Left"       
+                       FontFamily="Montserrat"
+                       TextChanged="CustomerCareTxt_TextChanged" 
+                       RenderTransformOrigin="0.5,0.5" 
+                       Margin="78,285,0,119" 
+                       Grid.Row="1" 
+                       Grid.ColumnSpan="2">
+                    <TextBox.RenderTransform>
+                        <TransformGroup>
+                            <ScaleTransform/>
+                            <SkewTransform AngleX="-0.955"/>
+                            <RotateTransform/>
+                            <TranslateTransform X="0.25"/>
+                        </TransformGroup>
+                    </TextBox.RenderTransform>
+                </TextBox>
+
+            </Grid>
+        </Border>
+    </Border>
+</Window>
