@@ -3,8 +3,27 @@
   "WorkspaceRootPath": "C:\\Users\\Ned\\Documents\\GitHub\\NewELearnLMS\\NewELearnLMS\\NewELearnLMS\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{ECAD2D21-DA00-488E-A950-D466F726BE2C}|NewELearnLMS.csproj|c:\\users\\ned\\documents\\github\\newelearnlms\\newelearnlms\\newelearnlms\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{ECAD2D21-DA00-488E-A950-D466F726BE2C}|NewELearnLMS.csproj|solutionrelative:mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{00000000-0000-0000-0000-000000000000}|\u003CSolution\u003E|NewELearnLMS||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ECAD2D21-DA00-488E-A950-D466F726BE2C}|NewELearnLMS.csproj|c:\\users\\ned\\documents\\github\\newelearnlms\\newelearnlms\\newelearnlms\\vulnerableloginview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{ECAD2D21-DA00-488E-A950-D466F726BE2C}|NewELearnLMS.csproj|solutionrelative:vulnerableloginview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ECAD2D21-DA00-488E-A950-D466F726BE2C}|NewELearnLMS.csproj|c:\\users\\ned\\documents\\github\\newelearnlms\\newelearnlms\\newelearnlms\\vulnerableauthenticationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ECAD2D21-DA00-488E-A950-D466F726BE2C}|NewELearnLMS.csproj|solutionrelative:vulnerableauthenticationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ECAD2D21-DA00-488E-A950-D466F726BE2C}|NewELearnLMS.csproj|c:\\users\\ned\\documents\\github\\newelearnlms\\newelearnlms\\newelearnlms\\properties\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ECAD2D21-DA00-488E-A950-D466F726BE2C}|NewELearnLMS.csproj|solutionrelative:properties\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ECAD2D21-DA00-488E-A950-D466F726BE2C}|NewELearnLMS.csproj|c:\\users\\ned\\documents\\github\\newelearnlms\\newelearnlms\\newelearnlms\\authenticationunsecured.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ECAD2D21-DA00-488E-A950-D466F726BE2C}|NewELearnLMS.csproj|solutionrelative:authenticationunsecured.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ECAD2D21-DA00-488E-A950-D466F726BE2C}|NewELearnLMS.csproj|c:\\users\\ned\\documents\\github\\newelearnlms\\newelearnlms\\newelearnlms\\authenticationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ECAD2D21-DA00-488E-A950-D466F726BE2C}|NewELearnLMS.csproj|solutionrelative:authenticationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{ECAD2D21-DA00-488E-A950-D466F726BE2C}|NewELearnLMS.csproj|c:\\users\\ned\\documents\\github\\newelearnlms\\newelearnlms\\newelearnlms\\loginview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -15,8 +34,19 @@
       "RelativeMoniker": "D:0:0:{ECAD2D21-DA00-488E-A950-D466F726BE2C}|NewELearnLMS.csproj|solutionrelative:loginview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{ECAD2D21-DA00-488E-A950-D466F726BE2C}|NewELearnLMS.csproj|c:\\users\\ned\\documents\\github\\newelearnlms\\newelearnlms\\newelearnlms\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{ECAD2D21-DA00-488E-A950-D466F726BE2C}|NewELearnLMS.csproj|solutionrelative:mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{ECAD2D21-DA00-488E-A950-D466F726BE2C}|NewELearnLMS.csproj|c:\\users\\ned\\documents\\github\\newelearnlms\\newelearnlms\\newelearnlms\\vulnerableloginview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ECAD2D21-DA00-488E-A950-D466F726BE2C}|NewELearnLMS.csproj|solutionrelative:vulnerableloginview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ECAD2D21-DA00-488E-A950-D466F726BE2C}|NewELearnLMS.csproj|c:\\users\\ned\\documents\\github\\newelearnlms\\newelearnlms\\newelearnlms\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ECAD2D21-DA00-488E-A950-D466F726BE2C}|NewELearnLMS.csproj|solutionrelative:app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ECAD2D21-DA00-488E-A950-D466F726BE2C}|NewELearnLMS.csproj|c:\\users\\ned\\documents\\github\\newelearnlms\\newelearnlms\\newelearnlms\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{ECAD2D21-DA00-488E-A950-D466F726BE2C}|NewELearnLMS.csproj|solutionrelative:app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ECAD2D21-DA00-488E-A950-D466F726BE2C}|NewELearnLMS.csproj|c:\\users\\ned\\documents\\github\\newelearnlms\\newelearnlms\\newelearnlms\\||{B270807C-D8C6-49EB-8EBE-8E8D566637A1}|df8f7042-0bb1-47d1-8e6d-deb3d07698bd"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,7 +56,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -34,52 +64,141 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "LoginView.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\Ned\\Documents\\GitHub\\NewELearnLMS\\NewELearnLMS\\NewELearnLMS\\LoginView.xaml.cs",
-              "RelativeDocumentMoniker": "LoginView.xaml.cs",
-              "ToolTip": "C:\\Users\\Ned\\Documents\\GitHub\\NewELearnLMS\\NewELearnLMS\\NewELearnLMS\\LoginView.xaml.cs*",
-              "RelativeToolTip": "LoginView.xaml.cs*",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAEIAAAAAAAAA",
+              "DocumentIndex": 0,
+              "Title": "NewELearnLMS",
+              "DocumentMoniker": "C:\\Users\\Ned\\Documents\\GitHub\\NewELearnLMS\\NewELearnLMS\\NewELearnLMS\\NewELearnLMS.csproj",
+              "RelativeDocumentMoniker": "NewELearnLMS.csproj",
+              "ToolTip": "C:\\Users\\Ned\\Documents\\GitHub\\NewELearnLMS\\NewELearnLMS\\NewELearnLMS\\NewELearnLMS.csproj",
+              "RelativeToolTip": "NewELearnLMS.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-03-27T02:52:23.66Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AssemblyInfo.cs",
+              "DocumentMoniker": "C:\\Users\\Ned\\Documents\\GitHub\\NewELearnLMS\\NewELearnLMS\\NewELearnLMS\\Properties\\AssemblyInfo.cs",
+              "RelativeDocumentMoniker": "Properties\\AssemblyInfo.cs",
+              "ToolTip": "C:\\Users\\Ned\\Documents\\GitHub\\NewELearnLMS\\NewELearnLMS\\NewELearnLMS\\Properties\\AssemblyInfo.cs",
+              "RelativeToolTip": "Properties\\AssemblyInfo.cs",
+              "ViewState": "AQIAADcAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-01T05:08:51.225Z",
+              "WhenOpened": "2025-03-27T02:40:27.579Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AuthenticationUnsecured.cs",
+              "DocumentMoniker": "C:\\Users\\Ned\\Documents\\GitHub\\NewELearnLMS\\NewELearnLMS\\NewELearnLMS\\AuthenticationUnsecured.cs",
+              "RelativeDocumentMoniker": "AuthenticationUnsecured.cs",
+              "ToolTip": "C:\\Users\\Ned\\Documents\\GitHub\\NewELearnLMS\\NewELearnLMS\\NewELearnLMS\\AuthenticationUnsecured.cs",
+              "RelativeToolTip": "AuthenticationUnsecured.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-27T02:39:47.567Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "App.xaml",
+              "DocumentMoniker": "C:\\Users\\Ned\\Documents\\GitHub\\NewELearnLMS\\NewELearnLMS\\NewELearnLMS\\App.xaml",
+              "RelativeDocumentMoniker": "App.xaml",
+              "ToolTip": "C:\\Users\\Ned\\Documents\\GitHub\\NewELearnLMS\\NewELearnLMS\\NewELearnLMS\\App.xaml",
+              "RelativeToolTip": "App.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-03-27T01:36:45.327Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "App.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Ned\\Documents\\GitHub\\NewELearnLMS\\NewELearnLMS\\NewELearnLMS\\App.xaml.cs",
+              "RelativeDocumentMoniker": "App.xaml.cs",
+              "ToolTip": "C:\\Users\\Ned\\Documents\\GitHub\\NewELearnLMS\\NewELearnLMS\\NewELearnLMS\\App.xaml.cs",
+              "RelativeToolTip": "App.xaml.cs",
+              "ViewState": "AQIAABgAAAAAAAAAAAAAACEAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-27T01:33:54.701Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "VulnerableLoginView.xaml",
+              "DocumentMoniker": "C:\\Users\\Ned\\Documents\\GitHub\\NewELearnLMS\\NewELearnLMS\\NewELearnLMS\\VulnerableLoginView.xaml",
+              "RelativeDocumentMoniker": "VulnerableLoginView.xaml",
+              "ToolTip": "C:\\Users\\Ned\\Documents\\GitHub\\NewELearnLMS\\NewELearnLMS\\NewELearnLMS\\VulnerableLoginView.xaml",
+              "RelativeToolTip": "VulnerableLoginView.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-03-27T01:30:37.344Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "VulnerableLoginView.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Ned\\Documents\\GitHub\\NewELearnLMS\\NewELearnLMS\\NewELearnLMS\\VulnerableLoginView.xaml.cs",
+              "RelativeDocumentMoniker": "VulnerableLoginView.xaml.cs",
+              "ToolTip": "C:\\Users\\Ned\\Documents\\GitHub\\NewELearnLMS\\NewELearnLMS\\NewELearnLMS\\VulnerableLoginView.xaml.cs",
+              "RelativeToolTip": "VulnerableLoginView.xaml.cs",
+              "ViewState": "AQIAADMAAAAAAAAAAAAAAA0AAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-27T01:26:29.029Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "VulnerableAuthenticationService.cs",
+              "DocumentMoniker": "C:\\Users\\Ned\\Documents\\GitHub\\NewELearnLMS\\NewELearnLMS\\NewELearnLMS\\VulnerableAuthenticationService.cs",
+              "RelativeDocumentMoniker": "VulnerableAuthenticationService.cs",
+              "ToolTip": "C:\\Users\\Ned\\Documents\\GitHub\\NewELearnLMS\\NewELearnLMS\\NewELearnLMS\\VulnerableAuthenticationService.cs",
+              "RelativeToolTip": "VulnerableAuthenticationService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABsAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-27T01:24:31.258Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "LoginView.xaml",
               "DocumentMoniker": "C:\\Users\\Ned\\Documents\\GitHub\\NewELearnLMS\\NewELearnLMS\\NewELearnLMS\\LoginView.xaml",
               "RelativeDocumentMoniker": "LoginView.xaml",
               "ToolTip": "C:\\Users\\Ned\\Documents\\GitHub\\NewELearnLMS\\NewELearnLMS\\NewELearnLMS\\LoginView.xaml",
               "RelativeToolTip": "LoginView.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-08-01T05:04:05.315Z",
+              "WhenOpened": "2025-03-27T00:25:24.757Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "MainWindow.xaml",
-              "DocumentMoniker": "C:\\Users\\Ned\\Documents\\GitHub\\NewELearnLMS\\NewELearnLMS\\NewELearnLMS\\MainWindow.xaml",
-              "RelativeDocumentMoniker": "MainWindow.xaml",
-              "ToolTip": "C:\\Users\\Ned\\Documents\\GitHub\\NewELearnLMS\\NewELearnLMS\\NewELearnLMS\\MainWindow.xaml",
-              "RelativeToolTip": "MainWindow.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-08-01T04:49:42.645Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "MainWindow.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\Ned\\Documents\\GitHub\\NewELearnLMS\\NewELearnLMS\\NewELearnLMS\\MainWindow.xaml.cs",
-              "RelativeDocumentMoniker": "MainWindow.xaml.cs",
-              "ToolTip": "C:\\Users\\Ned\\Documents\\GitHub\\NewELearnLMS\\NewELearnLMS\\NewELearnLMS\\MainWindow.xaml.cs",
-              "RelativeToolTip": "MainWindow.xaml.cs",
-              "ViewState": "AQIAADAAAAAAAAAAAAAswEkAAAAAAAAA",
+              "DocumentIndex": 6,
+              "Title": "LoginView.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Ned\\Documents\\GitHub\\NewELearnLMS\\NewELearnLMS\\NewELearnLMS\\LoginView.xaml.cs",
+              "RelativeDocumentMoniker": "LoginView.xaml.cs",
+              "ToolTip": "C:\\Users\\Ned\\Documents\\GitHub\\NewELearnLMS\\NewELearnLMS\\NewELearnLMS\\LoginView.xaml.cs",
+              "RelativeToolTip": "LoginView.xaml.cs",
+              "ViewState": "AQIAACoAAAAAAAAAAAAAAAgAAAArAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-01T04:49:42.02Z",
+              "WhenOpened": "2025-03-26T14:33:36.249Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AuthenticationService.cs",
+              "DocumentMoniker": "C:\\Users\\Ned\\Documents\\GitHub\\NewELearnLMS\\NewELearnLMS\\NewELearnLMS\\AuthenticationService.cs",
+              "RelativeDocumentMoniker": "AuthenticationService.cs",
+              "ToolTip": "C:\\Users\\Ned\\Documents\\GitHub\\NewELearnLMS\\NewELearnLMS\\NewELearnLMS\\AuthenticationService.cs",
+              "RelativeToolTip": "AuthenticationService.cs",
+              "ViewState": "AQIAAG4AAAAAAAAAAAAAABYAAAA0AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-26T00:21:05.315Z",
               "EditorCaption": ""
             }
           ]

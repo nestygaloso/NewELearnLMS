@@ -2,6 +2,7 @@
 using System;
 using System.Windows;
 using System.Windows.Input;
+using Microsoft.VisualBasic;
 
 namespace NewElearnLMS.View
 {
@@ -17,7 +18,6 @@ namespace NewElearnLMS.View
 
         private void Window_MouseDown(object sender, MouseButtonEventArgs e)
         {
-
             if (e.ChangedButton == MouseButton.Left)
             {
                 this.DragMove();
@@ -26,32 +26,44 @@ namespace NewElearnLMS.View
 
         private void btnMinimize_Click(object sender, RoutedEventArgs e)
         {
-
             this.WindowState = WindowState.Minimized;
         }
 
         private void btnClose_Click(object sender, RoutedEventArgs e)
         {
-
             this.Close();
         }
 
         private void btnLogin_Click(object sender, RoutedEventArgs e)
         {
-    
             string username = txtUser.Text;
             string password = txtPass.Password;
 
- 
+            //Test Code - Displaying Hashed Password
+            string hashedPassword = AuthenticationService.HashPassword(password);
+            MessageBox.Show($"Hashed Password: {hashedPassword}", "Debug Info");
+
+            //Checking if the user is authenticated
             if (authService.AuthenticateUser(username, password))
             {
+                MessageBox.Show("Password Verified! An OTP has been sent to your email.");
 
-                MessageBox.Show("Login successful!");
+                //Prompt user to enter the OTP
+                string userInputOtp = Interaction.InputBox("Enter the OTP sent to your email:", "OTP Verification");
 
+                if (authService.VerifyOTP(userInputOtp))
+                {
+                    MessageBox.Show("Login successful!");
 
-                MainWindow mainWindow = new MainWindow();
-                mainWindow.Show();
-                this.Close();
+                    //Proceed to Main Window
+                    MainWindow mainWindow = new MainWindow();
+                    mainWindow.Show();
+                    this.Close();
+                }
+                else
+                {
+                    MessageBox.Show("Invalid OTP. Login failed.");
+                }
             }
             else
             {

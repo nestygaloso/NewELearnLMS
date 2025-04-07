@@ -19,3 +19,5 @@ C:\Users\Ned\Documents\GitHub\NewELearnLMS\NewELearnLMS\NewELearnLMS\obj\Debug\C
 C:\Users\Ned\Documents\GitHub\NewELearnLMS\NewELearnLMS\NewELearnLMS\obj\Debug\Messages.g.cs
 C:\Users\Ned\Documents\GitHub\NewELearnLMS\NewELearnLMS\NewELearnLMS\obj\Debug\Course.baml
 C:\Users\Ned\Documents\GitHub\NewELearnLMS\NewELearnLMS\NewELearnLMS\obj\Debug\Messages.baml
+C:\Users\Ned\Documents\GitHub\NewELearnLMS\NewELearnLMS\NewELearnLMS\obj\Debug\VulnerableLoginView.baml
+C:\Users\Ned\Documents\GitHub\NewELearnLMS\NewELearnLMS\NewELearnLMS\obj\Debug\VulnerableLoginView.g.cs
